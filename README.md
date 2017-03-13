@@ -8,9 +8,16 @@ Scrapper take three arguments:
 Installation:
   1. For runnning this script you need to install BeautifulSoup.
     If you use Debian based systems you can try this command:
+    
       apt-get install python-bs4
+      
     More information on official site of BeautifulSoup4:
+    
       https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup
+      
+  2. Run "python3 ./rabota_ua.py" in folder where is "scrap_rabota_ua".
+  
+  
       
 
 Also, you can only edit scrap_constants.py and then run "python3 ./rabota_ua.py" from direcotory where is placed scrap_rabota_ua

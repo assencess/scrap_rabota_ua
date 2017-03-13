@@ -20,7 +20,7 @@ Installation:
   
       
 
-Also, you can only edit scrap_constants.py and then run "python3 ./rabota_ua.py" from direcotory where is placed scrap_rabota_ua
+Also, you can only edit scrap_constants.py and then run "python3 ./rabota_ua.py" from directory where is placed scrap_rabota_ua
 
 Other stuff you can find in source code.
 

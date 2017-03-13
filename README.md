@@ -6,6 +6,8 @@ Scrapper take three arguments:
   3. Last page. This mean that you can parse few or more pages.
   
 Also, you can only edit scrap_constants.py and then run "python3 ./rabota_ua.py" from direcotory where is placed scrap_rabota_ua
+
 Other stuff you can find in source code.
+
 Thanks for visiting.
 

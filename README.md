@@ -2,6 +2,7 @@
 Scrapper for rabota.ua
 This scrapper can be used for finding jobs on site rabota.ua
 Example how to use it:
+# scrapper rabota_ua
 ua = UtilsRabotaUa(PROF, FIRST_PAGE, LAST_PAGE)
 jobs = list() # create a list for saving jobs
 for url in ua:    

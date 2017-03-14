@@ -9,12 +9,12 @@ class UtilsRabotaUa():
     """
     _job_name = PROF # Search query | All regions
     _page_obj = FIRST_PAGE # With what page need to start
-    _pages = LAST_PAGE # How many pages need to scrap
+    _last_page = LAST_PAGE # How many pages need to scrap
 
     def __init__(self, job_name=PROF, page=FIRST_PAGE, pages=LAST_PAGE):
         self._job_name = job_name
         self._page_obj = page
-        self._pages = pages
+        self._last_page = pages
 
     def make_url(self, page_num=0):
         """
@@ -32,12 +32,12 @@ class UtilsRabotaUa():
 
     def __next__(self):
         url = ""
-        if self._page_obj <= self._pages:
+        if self._page_obj <= self._last_page:
             url = self.make_url(self._page_obj)
             self._page_obj += 1
 
             return url
-        elif self._page_obj >= self._pages:
+        elif self._page_obj >= self._last_page:
             raise StopIteration
 
 if __name__ == "__main__":
